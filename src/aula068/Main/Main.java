@@ -19,10 +19,10 @@ public class Main {
         name = sc.nextLine();
         System.out.print("Price: ");
         price = Double.parseDouble(sc.nextLine());
-        System.out.print("Quantity in stock: ");
-        quantity = Integer.parseInt(sc.nextLine());
 
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price);
+
+        product.setName("Computer");
 
         System.out.println();
         System.out.println("Product data: " + product);

@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("Employee: " + employee.netSalary());
         System.out.println();
-        System.out.println("Which percentage to increase salary? ");
+        System.out.print("Which percentage to increase salary? ");
         while(true) {
             try {
                 employee.increaseSalary(Double.parseDouble(sc.nextLine()));
